@@ -145,21 +145,19 @@
         <ul class="text-lg dark:text-gray-300">
           <li class="mb-2">
             <CheckIcon />
-            Select allowed point values that fit your team's process
+            {$LL.selectAllowedPointValues()}
           </li>
           <li class="mb-2">
             <CheckIcon />
-            Automatically end voting once all participants have voted
+            {$LL.autoEndVoting()}
           </li>
           <li class="mb-2">
             <CheckIcon />
-            Although every battle has a secure unique ID optionally set a passcode
-            to join
+            {$LL.althoughEveryBattle()}
           </li>
           <li class="mb-2">
             <CheckIcon />
-            Leader code &amp; multiple leader features allow team members to continue
-            in your absence
+            {$LL.leaderCode()}
           </li>
         </ul>
       </div>

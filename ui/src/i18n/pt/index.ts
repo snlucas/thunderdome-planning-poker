@@ -38,6 +38,7 @@ const pt: Translation = {
   alertSave: 'Salvar alerta',
   alertTypePlaceholder: 'Selecione um tipo de alerta',
   allVotesIn: 'Todos os votos em',
+  althoughEveryBattle: 'Embora cada batalha tenha um ID único e seguro, pode ser definido opcionalmente um código de acesso para participar',
   apiDocumentation: 'Documentação de API',
   apikeyCopyFailure:
     'Não foi possível copiar a chave de API para a área de transferência',
@@ -52,6 +53,7 @@ const pt: Translation = {
   associateTeam: 'Equipe Associada',
   authError:
     '{friendly|{false:Erro encontrado ao tentar autenticar o guerreiro, true:Erro encontrado ao tentar autenticar o jogador}}',
+  autoEndVoting: 'A votação se encerra automaticamente assim que todos os participantes tenham votado',
   autoFinishVoting: 'Finalização automática de votação',
   avatarAltText: 'Espaço reservado para o Avatar',
   back: 'Voltar',
@@ -237,6 +239,7 @@ const pt: Translation = {
     '{friendly|{false:Thunderdome é um aplicativo ágil de Planning Poker com um tema divertido, true:Thunderdome é um aplicativo ágil de Planning Poker com um tema divertido}}',
   lastActive: 'Ativo pela última vez',
   leader: 'Líder',
+  leaderCode: 'Código de líder e várias funcionalidades de líder permitem que os membros de sua equipe continuem em sua ausência',
   leaderPasscode: 'Código de acesso de Líder',
   leaveRetro: 'Sair da Retro',
   leaveStoryboard: 'Sair do Storyboard',
@@ -390,6 +393,7 @@ const pt: Translation = {
   save: 'Salvar',
   search: 'Pesquisar',
   searchLengthError: 'O valor da pesquisa deve ter pelo menos 3 caracteres',
+  selectAllowedPointValues: 'Selecione os valores permitidos que se ajustam ao processo da sua equipe',
   selectTeam: 'Selecione uma Equipe',
   selfHostedDesc:
     'Alternativamente, você pode {linkOpen}executá-lo em seu próprio servidor{linkClose}.',

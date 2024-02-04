@@ -38,6 +38,7 @@ const de: Translation = {
   alertSave: 'Benachrichtigung speichern',
   alertTypePlaceholder: 'Benachrichtigungstyp auswählen',
   allVotesIn: 'All votes in',
+  althoughEveryBattle: 'Although every battle has a secure unique ID optionally set a passcode to join',
   apiDocumentation: 'API Documentation',
   apikeyCopyFailure: "Couldn't copy API key to clipboard",
   apikeyCopySuccess: 'API key copied to clipboard',
@@ -50,6 +51,7 @@ const de: Translation = {
   associateTeam: 'Associate Team',
   authError:
     '{friendly|{false:Beim Versuch, den Krieger zu authentifizieren, ist ein Fehler aufgetreten, true:Beim Versuch, den Benutzer zu authentifizieren, ist ein Fehler aufgetreten}}',
+  autoEndVoting: 'Automatically end voting once all participants have voted',
   autoFinishVoting: 'Auto Finish Voting',
   avatarAltText: 'Avatar Platzhalter',
   back: 'Back',
@@ -230,6 +232,7 @@ const de: Translation = {
     '{friendly|{false:Thunderdome ist eine Agile Planning Poker App mit einem lustigen Thema, true:Thunderdome is an Agile Planning Poker app}}',
   lastActive: 'Last Active',
   leader: 'Chef',
+  leaderCode: 'Leader code & multiple leader features allow team members to continue in your absence',
   leaderPasscode: 'Leader code',
   leaveRetro: 'Leave Retro',
   leaveStoryboard: 'Leave Storyboard',
@@ -383,6 +386,7 @@ const de: Translation = {
   save: 'Speichern',
   search: 'Search',
   searchLengthError: 'Search value must be at least 3 characters',
+  selectAllowedPointValues: 'Select allowed point values that fit your team\'s process',
   selectTeam: 'Select a Team',
   selfHostedDesc:
     'Alternatively you can {linkOpen}run it on your own server{linkClose}.',

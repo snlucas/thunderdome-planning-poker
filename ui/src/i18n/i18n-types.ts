@@ -163,6 +163,10 @@ type RootTranslation = {
    */
   allVotesIn: string;
   /**
+   * Although every battle has a secure unique ID optionally set a passcode to join
+   */
+  althoughEveryBattle: string;
+  /**
    * A​P​I​ ​D​o​c​u​m​e​n​t​a​t​i​o​n
    */
   apiDocumentation: string;
@@ -208,6 +212,10 @@ type RootTranslation = {
    * @param {'false' | 'true'} friendly
    */
   authError: RequiredParams<`friendly|{false:${string}, true:${string}}`>;
+  /**
+   * Automatically end voting once all participants have voted
+   */
+  autoEndVoting: string;
   /**
    * A​u​t​o​ ​F​i​n​i​s​h​ ​V​o​t​i​n​g
    */
@@ -878,6 +886,10 @@ type RootTranslation = {
    */
   leader: string;
   /**
+   * Leader code &amp; multiple leader features allow team members to continue in your absence
+   */
+  leaderCode: string;
+  /**
    * L​e​a​d​e​r​ ​c​o​d​e
    */
   leaderPasscode: string;
@@ -1461,6 +1473,10 @@ type RootTranslation = {
    * S​e​a​r​c​h​ ​v​a​l​u​e​ ​m​u​s​t​ ​b​e​ ​a​t​ ​l​e​a​s​t​ ​3​ ​c​h​a​r​a​c​t​e​r​s
    */
   searchLengthError: string;
+  /**
+   * Select allowed point values that fit your team's process
+   */
+  selectAllowedPointValues: string;
   /**
    * S​e​l​e​c​t​ ​a​ ​T​e​a​m
    */
@@ -2474,6 +2490,10 @@ export type TranslationFunctions = {
    */
   allVotesIn: () => LocalizedString;
   /**
+   * Although every battle has a secure unique ID optionally set a passcode to join
+   */
+  althoughEveryBattle: () => LocalizedString;
+  /**
    * API Documentation
    */
   apiDocumentation: () => LocalizedString;
@@ -2517,6 +2537,10 @@ export type TranslationFunctions = {
    * {friendly|{false:Error encountered attempting to authenticate warrior, true:Error encountered attempting to authenticate user}}
    */
   authError: (arg: { friendly: 'false' | 'true' }) => LocalizedString;
+  /**
+   * Automatically end voting once all participants have voted
+   */
+  autoEndVoting: () => LocalizedString;
   /**
    * Auto Finish Voting
    */
@@ -3170,6 +3194,10 @@ export type TranslationFunctions = {
    */
   leader: () => LocalizedString;
   /**
+   * Leader code &amp; multiple leader features allow team members to continue in your absence
+   */
+  leaderCode: () => LocalizedString;
+  /**
    * Leader code
    */
   leaderPasscode: () => LocalizedString;
@@ -3747,6 +3775,10 @@ export type TranslationFunctions = {
    * Search value must be at least 3 characters
    */
   searchLengthError: () => LocalizedString;
+  /**
+   * Select allowed point values that fit your team's process
+   */
+  selectAllowedPointValues: () => LocalizedString;
   /**
    * Select a Team
    */
