@@ -293,6 +293,7 @@ const de: Translation = {
   organizationsAndTeams: 'Organizations and Teams',
   organizationSave: 'Unternehmen speichern',
   owner: 'Owner',
+  participantVoteTransparency: 'Participant vote transparency helps drive team discussion and aid in decision making',
   participation: 'Participation',
   passCode: 'Passcode',
   passCodeRequired: 'Passcode required to join',
@@ -443,6 +444,7 @@ const de: Translation = {
   todayPlaceholder: 'Today I will...',
   totalPoints: 'Gesamt',
   totalVotes: 'Schätzungen',
+  totalVotesAveragePoints: 'Total votes, average points, and highest point metrics',
   type: 'Typ',
   unknownWarrior:
     '{friendly|{false:Unbekannter Krieger, true:Unbekannter Benutzer}}',

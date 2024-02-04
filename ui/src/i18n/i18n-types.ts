@@ -1116,6 +1116,10 @@ type RootTranslation = {
    */
   owner: string;
   /**
+   * Participant vote transparency helps drive team discussion and aid in decision making
+   */
+  participantVoteTransparency: string;
+  /**
    * P​a​r​t​i​c​i​p​a​t​i​o​n
    */
   participation: string;
@@ -1690,6 +1694,10 @@ type RootTranslation = {
    * T​o​t​a​l​ ​V​o​t​e​s
    */
   totalVotes: string;
+  /**
+   * Total votes, average points, and highest point metrics
+   */
+  totalVotesAveragePoints: string;
   /**
    * T​y​p​e
    */
@@ -3424,6 +3432,10 @@ export type TranslationFunctions = {
    */
   owner: () => LocalizedString;
   /**
+   * Participant vote transparency helps drive team discussion and aid in decision making
+   */
+  participantVoteTransparency: () => LocalizedString;
+  /**
    * Participation
    */
   participation: () => LocalizedString;
@@ -3990,6 +4002,10 @@ export type TranslationFunctions = {
    * Total Votes
    */
   totalVotes: () => LocalizedString;
+  /**
+   * Total votes, average points, and highest point metrics
+   */
+  totalVotesAveragePoints: () => LocalizedString;
   /**
    * Type
    */

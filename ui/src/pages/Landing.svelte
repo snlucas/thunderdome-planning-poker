@@ -197,12 +197,11 @@
         <ul class="text-lg dark:text-gray-300">
           <li class="mb-2">
             <CheckIcon />
-            Total votes, average points, and highest point metrics
+            {$LL.totalVotesAveragePoints()}
           </li>
           <li class="mb-2">
             <CheckIcon />
-            Participant vote transparency helps drive team discussion and aid in
-            decision making
+            {$LL.participantVoteTransparency()}
           </li>
         </ul>
       </div>

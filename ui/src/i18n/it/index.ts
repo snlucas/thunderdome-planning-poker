@@ -306,6 +306,7 @@ const it: Translation = {
   organizationsAndTeams: 'Organizzazioni e Team',
   organizationSave: 'Salva Organizzazione',
   owner: 'Proprietario',
+  participantVoteTransparency: 'Participant vote transparency helps drive team discussion and aid in decision making',
   participation: 'Partecipazione',
   passCode: 'Codice di accesso',
   passCodeRequired: 'Codice di accesso obbligatorio per unirsi',
@@ -465,6 +466,7 @@ const it: Translation = {
   todayPlaceholder: 'Oggi farò...',
   totalPoints: 'Totale',
   totalVotes: 'Voti Totali',
+  totalVotesAveragePoints: 'Total votes, average points, and highest point metrics',
   type: 'Tipo',
   unknownWarrior:
     '{friendly|{false:Guerriero sconosciuto, true:Giocatore sconosciuto}}',

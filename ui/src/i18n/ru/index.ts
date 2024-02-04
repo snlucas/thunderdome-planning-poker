@@ -290,6 +290,7 @@ const ru: Translation = {
   organizationsAndTeams: 'Organizations and Teams',
   organizationSave: 'Save Organization',
   owner: 'Owner',
+  participantVoteTransparency: 'Participant vote transparency helps drive team discussion and aid in decision making',
   participation: 'Participation',
   passCode: 'Passcode',
   passCodeRequired: 'Passcode required to join',
@@ -440,6 +441,7 @@ const ru: Translation = {
   todayPlaceholder: 'Today I will...',
   totalPoints: 'Total',
   totalVotes: 'Total Votes',
+  totalVotesAveragePoints: 'Total votes, average points, and highest point metrics',
   type: 'Type',
   unknownWarrior:
     '{friendly|{false:Неизвестный участник, true:Unknown Player}}',
