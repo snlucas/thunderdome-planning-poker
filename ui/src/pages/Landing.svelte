@@ -218,7 +218,8 @@
         <h2
           class="mb-2 lg:mb-4 text-4xl font-rajdhani uppercase font-semibold leading-none"
         >
-          Agile Sprint Retrospectives
+          <!-- Agile Sprint Retrospectives -->
+          {$LL.agileSprintRetro()}
         </h2>
 
         <p class="py-2 lg:py-4 text-2xl lg:text-3xl mb-4 font-rajdhani">

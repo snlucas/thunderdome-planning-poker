@@ -27,6 +27,7 @@ const it: Translation = {
   adminPageOrganizations: 'Organizzazioni',
   adminPageTeams: 'Teams',
   adminPageUsers: 'Utenti',
+  agileSprintRetro: 'Agile Sprint Retrospectives',
   alertAllowDismiss: 'Permetti Chiusura',
   alertContent: 'Contenuto Avviso',
   alertContentPlaceholder: "Inserisci il contenuto dell'avviso",
